@@ -1,0 +1,96 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #813d9c;
+  --ifm-color-primary-dark: #74378c;
+  --ifm-color-primary-darker: #6e3485;
+  --ifm-color-primary-darkest: #5a2b6d;
+  --ifm-color-primary-light: #8e43ac;
+  --ifm-color-primary-lighter: #9446b3;
+  --ifm-color-primary-lightest: #9e53bc;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #c061cb;
+  --ifm-color-primary-dark: #b74ac4;
+  --ifm-color-primary-darker: #b33fc0;
+  --ifm-color-primary-darkest: #93349e;
+  --ifm-color-primary-light: #c978d2;
+  --ifm-color-primary-lighter: #ce83d6;
+  --ifm-color-primary-lightest: #dba5e1;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+[data-theme='light'] {
+  .card {
+    background-color: #d7b9e4;
+  }
+}
+
+.footer {
+  display: none;
+}
+
+ol {
+  list-style-type: custom-decimal;
+}
+
+ol ol {
+  list-style-type: custom-lower-alpha;
+}
+
+ol ol ol {
+  list-style-type: custom-lower-roman;
+}
+
+ol ol ol ol {
+  list-style-type: custom-upper-roman;
+}
+
+blockquote ol {
+  list-style-type: custom-decimal !important;
+}
+
+blockquote ol ol {
+  list-style-type: custom-lower-alpha !important;
+}
+
+blockquote ol ol ol {
+  list-style-type: custom-lower-roman !important;
+}
+
+blockquote ol ol ol ol {
+  list-style-type: custom-upper-roman !important;
+}
+
+@counter-style custom-decimal {
+  system: extends decimal;
+  prefix: '(';
+  suffix: ')\09';
+}
+
+@counter-style custom-lower-alpha {
+  system: extends lower-alpha;
+  prefix: '(';
+  suffix: ')\09';
+}
+
+@counter-style custom-lower-roman {
+  system: extends lower-roman;
+  prefix: '(';
+  suffix: ')\09';
+}
+
+@counter-style custom-upper-roman {
+  system: extends upper-roman;
+  prefix: '(';
+  suffix: ')\09';
+}

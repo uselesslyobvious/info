@@ -36,6 +36,9 @@ const config: Config = {
   ],
 
   themeConfig: {
+    metadata: [
+      { name: 'keywords', content: 'free speech, ireland, hate speech bill, freedom of speech' },
+    ],
     navbar: {
       title: 'Stop hate speech',
       items: [

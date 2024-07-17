@@ -52,3 +52,7 @@ No it doesn't.
 Library & Research Service's digest of the Bill notes that the provision of having some actions criminalised even before actual harm is done is known as ["inchoate offense"](https://en.wikipedia.org/wiki/Inchoate_offense) and is in line with international law.
 
 After all, hateful conduct often does not cause physical harm to a person, but that does not mean that we should wait until someone snaps, if we can recognize harmful behaviour much earlier.
+
+### "I won't be able to say anything that someone else might find offensive!"
+
+No, someone being offended as grounds for prosecution is not mentioned anywhere in the bill.
